@@ -1,0 +1,21 @@
+/* selectBox.css */
+.select-container {
+    flex: o; /* Allow the filter select to take available space */
+  }
+  
+  .select-container select {
+    width: 100%; /* Ensure the select box uses the available width */
+    max-width: 200px; /* Set a maximum width */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .select-container select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

@@ -1,0 +1,11 @@
+.home-container {
+    padding: 20px; /* Add padding to the container */
+  }
+  
+  .search-filter {
+    display: flex;
+    justify-content: space-between; /* Arrange items opposite to each other */
+    padding-bottom: 10px; /* Add bottom padding between search and filter */
+    align-items: center; /* Vertically center align items */
+  }
+  

@@ -1,0 +1,20 @@
+.search-container {
+    flex: 1; /* Allow the search container to take available space */
+  }
+  
+  .search-input {
+    width: 100%; /* Set width to 100% to use the space given by the container */
+    max-width: 300px; /* Set a maximum width to prevent it from becoming too wide on larger screens */
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
